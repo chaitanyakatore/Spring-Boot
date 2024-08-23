@@ -1,0 +1,13 @@
+
+CREATE TABLE person (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    location VARCHAR(255),
+    birthDate DATE
+);
+
+
+
+INSERT INTO PERSON (ID, NAME, LOCATION, birthDate) VALUES (1001, 'chaitanya', 'pune', CURRENT_TIMESTAMP);
+INSERT INTO PERSON (ID, NAME, LOCATION, birthDate) VALUES (1011, 'aditya', 'pune', CURRENT_TIMESTAMP);
+INSERT INTO PERSON (ID, NAME, LOCATION, birthDate) VALUES (1041, 'bittu', 'pune', CURRENT_TIMESTAMP);
